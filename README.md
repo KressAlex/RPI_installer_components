@@ -17,9 +17,9 @@ Node-Red, Influxdb, grafana installation
       sudo ./install.sh
 
 ## Install Node-Red
-      bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-      node-red-pi --max-old-space-size=256
-      sudo systemctl enable nodered.service
+      bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) -y
+      node-red-pi --max-old-space-size=256 -y 
+      sudo systemctl enable nodered.service -y
 
 ## Install InfluxDB
       TBD 
