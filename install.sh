@@ -1,4 +1,4 @@
-#bash !/bin/sh
+#!/bin/sh
 
 #install node-Red
 
