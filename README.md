@@ -1,19 +1,20 @@
 # RPI_installer_components
 Node-Red, Influxdb, grafana installation
 
-$ sudo apt update
-$ sudo apt upgrade -y
 
 
-##	Installation procedure
-
+## Use git to install installation script
+      git clone https://github.com/KressAlex/RPI_installer_components.git ~/Install_script
+      cd ~/Install_script
+      sudo chmod +x install.sh
+      sudo ./install.sh
+      
+## Installation procedure
       sudo apt update
       sudo apt upgrade -y
 
 ## Run script
       sudo ./install.sh
-
-
 
 ## Install Node-Red
       bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
