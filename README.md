@@ -45,7 +45,7 @@ noderedsetup
       sudo systemctl enable influxdb
       sudo systemctl start influxdb
 
-      #Setup InfluxDB V1
+# Setup InfluxDB V1
 
       influx
       CREATE DATABASE tanklevel
